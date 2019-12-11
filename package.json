@@ -12,12 +12,21 @@
     "url": "git+https://github.com/ChathuraNilanka/Firestore-Node-App.git"
   },
   "author": "Chathura Nilanka",
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.4",
     "firebase": "^7.5.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
   },
   "bugs": {
     "url": "https://github.com/ChathuraNilanka/Firestore-Node-App/issues"
