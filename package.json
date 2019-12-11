@@ -1,0 +1,25 @@
+{
+  "name": "firestore-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChathuraNilanka/Firestore-Node-App.git"
+  },
+  "author": "Chathura Nilanka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "firebase": "^7.5.2"
+  },
+  "bugs": {
+    "url": "https://github.com/ChathuraNilanka/Firestore-Node-App/issues"
+  },
+  "homepage": "https://github.com/ChathuraNilanka/Firestore-Node-App#readme"
+}
