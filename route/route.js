@@ -27,11 +27,11 @@ router.post('/indoor', (req, res)=>{
         timestampsInSnapshots: true
     })
     db.collection('Indoor_temperature').add({
-        temp: req.body.temp,
+        temp: req.query.temp,
         time: new Date()
     })
     res.send({
-        temp: req.body.temp,
+        temp: req.query.temp,
         waktu: new Date()
     })
 })
