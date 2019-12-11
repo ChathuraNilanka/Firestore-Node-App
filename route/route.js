@@ -22,7 +22,7 @@ router.get('/data', (req, res)=>{
     })
 })
 
-router.post('/indoor', (req, res)=>{
+router.get('/indoor', (req, res)=>{
     db.settings({
         timestampsInSnapshots: true
     })
